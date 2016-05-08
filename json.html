@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="styles.css" type="text/css"> 
+		<meta charset="UTF-8">
+		<title>Dékány István - Index</title>
+		<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+
+
+</head>
+<body>
+
+<div class="transbox">
+	<img class="me" src=./img/banner.png alt="WebTech"/>
+	<div class="ts"></div>
+
+	<div class="menu">	
+	<button  onclick="load_Ind()" class="button button1">Index</button>
+	<button onclick="load_Htm()" class="button button2">HTML</button>
+	<button onclick="load_Form()" class="button button3">Form /JS</button>
+	<button onclick="load_JSon()" class="button button4">JSON</button>
+	<p> Szerver idő: <span id="sTime" > </span></p>
+	</div>
+
+		
+		<div style="text-align: center;">
+<p id="timedate" style="text-align: center;"></p>
+	<button type="button" class="button1" 
+	onclick="document.getElementById('timedate').innerHTML = Date()">
+			Kattints a kliens oldali idő és dátum megjelenítéshez.</button>			
+
+		</div>
+		
+		</div>
+
+</BODY>
+</html>

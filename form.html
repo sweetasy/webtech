@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+        <link rel="stylesheet" href="styles.css" type="text/css"> 
+		<meta charset="UTF-8">
+		<title>Dékány István - Index</title>
+		<script src="script.js"></script>
+
+
+
+</HEAD>
+<BODY>
+
+
+
+<div class="transbox">
+	<img class="me" src=./img/banner.png alt="WebTech"/>
+	<div class="ts"></div>
+	
+	<div class="menu">	
+	<button  onclick="load_Ind()" class="button button1">Index</button>
+	<button onclick="load_Htm()" class="button button2">HTML</button>
+	<button onclick="load_Form()" class="button button3">Form /JS</button>
+	<button onclick="load_JSon()" class="button button4">JSON</button>
+	</div>
+<div class="ts"></div>
+
+<form name="f1" action="#" onsubmit="return validate()">  
+<table>  
+<tr><td>Név:</td><td><input type="text" name="name"/>  
+<span id="nameloc"></span></td></tr>  
+<tr><td>Jelszó:</td><td><input type="text" name="password"/>  
+<span id="passwordloc"></span></td></tr>
+<tr><td>Email:</td><td><input type="text" name="email"/>  
+<span id="emailloc"></span></td></tr> 
+<tr><td colspan="2"><input type="submit" value="register"/></td></tr> 
+
+</table>  
+</form>  
+
+</div>
+
+
+        
+		
+		
+
+</BODY>
+</html>
